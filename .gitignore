@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Database and uploaded storage files (do not commit user data)
+instance/*.db
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Environment secrets
+.env
+
+# Pytest / coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
